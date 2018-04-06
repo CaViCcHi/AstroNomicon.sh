@@ -7,7 +7,7 @@ This file gets created inside `/opt/astronomy/data` and symlinked to `/etc/sysco
 The best idea would be to symlink or copy AstroNomicon.sh inside /etc/cron.daily
 
 ```
-/bin/ln -s /where/you/put/AstroNomicon.sh /etc/cron.daily/AstroNomicon.sh
+/bin/ln -s /where/you/put/AstroNomicon.sh /etc/cron.daily/AstroNomicon
 ```
 
 and let anacron deal with it every day
