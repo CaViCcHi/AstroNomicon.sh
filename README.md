@@ -4,7 +4,7 @@ Allows you to create a local file on your linux machine `/etc/sysconfig/astronom
 
 This file gets created inside `/opt/astronomy/data` and symlinked to `/etc/sysconfig/astronomy` with the correct one for today, a history will be kept in the directory `/opt/astronomy/data` in a file named `YYYYMMDD-data` (it's about 370b daily)
 
-The best idea would be to symlink AstroNomicon.sh inside /etc/cron.daily
+The best idea would be to symlink or copy AstroNomicon.sh inside /etc/cron.daily
 
 ```
 /bin/ln -s /where/you/put/AstroNomicon.sh /etc/cron.daily/AstroNomicon.sh
