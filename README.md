@@ -1,5 +1,7 @@
 
 # AstroNomicon.sh
+If you have ever wondered "at what time is the sun going to set tonight?" this library is for you! :)
+
 Allows you to create a local file on your linux machine `/etc/sysconfig/astronomy` with the info from sunrise-sunset.org/api
 
 This file gets created inside `/opt/astronomy/data` and symlinked to `/etc/sysconfig/astronomy` with the correct one for today, a history will be kept in the directory `/opt/astronomy/data` in a file named `YYYYMMDD-data` (it's about 370b daily)
