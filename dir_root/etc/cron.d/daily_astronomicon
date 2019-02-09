@@ -1,0 +1,21 @@
+## Timelapses
+
+## TODO: set email and shit
+SHELL=/usr/bin/bash
+HOME=/root
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/bin/bash-tui:/root/bin
+MAILFROM=nightly-timelapses@sdglamour.com
+MAILTO=gugoll+cron@gmail.com
+BASHTUI_LIB=/usr/lib/bash-tui
+
+################# YCNRE : You CanNot Remember Everything! .com ####
+## Cron Job
+## Set SHELL=xx/bash, PATH/sbin:xxx, MAILTO=xxx@xx.xx
+#-minute (0-59), */1 every minute
+# .-hour (0-23), */2 every 2 hours
+# | .-day of the month (1-31), */3 every 3 days... and so on
+# | | .-month of the year (1-12),
+# | | | .-day of the week (0-6 with 0=Sunday).
+# | | | |   .- user - commands ---
+###################################################################
+1 0 * * *  root bash /usr/local/bin/AstroNomicon.sh
