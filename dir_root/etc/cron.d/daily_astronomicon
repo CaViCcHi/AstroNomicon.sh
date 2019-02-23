@@ -4,8 +4,8 @@
 SHELL=/usr/bin/bash
 HOME=/root
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/bin/bash-tui:/root/bin
-MAILFROM=nightly-timelapses@sdglamour.com
-MAILTO=gugoll+cron@gmail.com
+MAILFROM=root
+MAILTO=root
 BASHTUI_LIB=/usr/lib/bash-tui
 
 ################# YCNRE : You CanNot Remember Everything! .com ####
